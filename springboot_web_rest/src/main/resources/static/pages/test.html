@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<input value="跨域请求" type="button" id="cors">
+</body>
+
+<script type="text/javascript">
+    $("#cors").click(function () {
+        $.ajax({
+            url: 'http://localhost:8080/user/1',
+            type: 'DELETE',
+            success: function(result) {
+               alert(result.data)
+            }
+        });
+    })
+
+</script>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot_log4j2/springboot_log4j2.iml" filepath="$PROJECT_DIR$/springboot_log4j2/springboot_log4j2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_logging/springboot_logging.iml" filepath="$PROJECT_DIR$/springboot_logging/springboot_logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_parent.iml" filepath="$PROJECT_DIR$/springboot_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_web/springboot_web.iml" filepath="$PROJECT_DIR$/springboot_web/springboot_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_web_rest/springboot_web_rest.iml" filepath="$PROJECT_DIR$/springboot_web_rest/springboot_web_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_web_servlet/springboot_web_servlet.iml" filepath="$PROJECT_DIR$/springboot_web_servlet/springboot_web_servlet.iml" />
+    </modules>
+  </component>
+</project>

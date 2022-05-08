@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot_web
+  messages:
+    basename: i18n.message

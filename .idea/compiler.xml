@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_log4j2" />
+        <module name="springboot_logging" />
+        <module name="springboot_web" />
+        <module name="springboot_web_rest" />
+        <module name="springboot_web_servlet" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot_log4j2" target="1.8" />
+      <module name="springboot_logging" target="1.8" />
+      <module name="springboot_parent" target="1.8" />
+      <module name="springboot_web" target="1.8" />
+      <module name="springboot_web_rest" target="1.8" />
+      <module name="springboot_web_servlet" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_log4j2" options="-parameters" />
+      <module name="springboot_logging" options="-parameters" />
+      <module name="springboot_parent" options="" />
+      <module name="springboot_web" options="-parameters" />
+      <module name="springboot_web_rest" options="-parameters" />
+      <module name="springboot_web_servlet" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+2022-04-30 17:20:12.451 [main] INFO  com.example.scc.SpringbootWebApplication [55] : Starting SpringbootWebApplication on PC-20180826RJMN with PID 12400 (E:\IdeaProjects\springboot\springboot_parent\springboot_web\target\classes started by Administrator in E:\IdeaProjects\springboot\springboot_parent)
+2022-04-30 17:20:12.501 [main] INFO  com.example.scc.SpringbootWebApplication [655] : The following profiles are active: dev
+2022-04-30 17:20:13.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-30 17:20:13.387 [main] INFO  org.apache.catalina.core.StandardService [173] : Starting service [Tomcat]
+2022-04-30 17:20:13.388 [main] INFO  org.apache.catalina.core.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-30 17:20:13.721 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] : Initializing Spring embedded WebApplicationContext
+2022-04-30 17:20:14.536 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [69] : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-30 17:20:14.748 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2022-04-30 17:20:14.764 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [160] : Context refreshed
+2022-04-30 17:20:14.810 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [163] : Found 1 custom documentation plugin(s)
+2022-04-30 17:20:14.838 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [41] : Scanning for api listing references
+2022-04-30 17:20:15.067 [main] INFO  com.example.scc.SpringbootWebApplication [61] : Started SpringbootWebApplication in 3.057 seconds (JVM running for 4.706)
+2022-04-30 17:23:48.295 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 17:23:48.378 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/favicon.ico；开始时间：2022-04-30T17:23:48.378
+2022-04-30 17:23:48.381 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/favicon.ico;执行时间：2毫秒
+2022-04-30 17:23:48.388 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/error；开始时间：2022-04-30T17:23:48.388
+2022-04-30 17:23:48.454 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/error;执行时间：66毫秒
+2022-04-30 17:23:48.537 [http-nio-8080-exec-3] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/user/1；开始时间：2022-04-30T17:23:48.537
+2022-04-30 17:23:48.546 [http-nio-8080-exec-3] INFO  com.example.scc.aspect.LogAspect [37] : 用户访问了：用户controller--根据id查询用户的接口
+2022-04-30 17:23:48.562 [http-nio-8080-exec-3] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/user/1;执行时间：24毫秒
+2022-04-30 17:25:11.369 [http-nio-8080-exec-6] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/favicon.ico；开始时间：2022-04-30T17:25:11.369
+2022-04-30 17:25:11.388 [http-nio-8080-exec-6] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/favicon.ico;执行时间：18毫秒
+2022-04-30 17:25:11.388 [http-nio-8080-exec-6] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/error；开始时间：2022-04-30T17:25:11.388
+2022-04-30 17:25:11.389 [http-nio-8080-exec-6] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/error;执行时间：1毫秒
+2022-04-30 17:25:11.728 [http-nio-8080-exec-7] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/user/2；开始时间：2022-04-30T17:25:11.728
+2022-04-30 17:25:11.729 [http-nio-8080-exec-7] INFO  com.example.scc.aspect.LogAspect [37] : 用户访问了：用户controller--根据id查询用户的接口
+2022-04-30 17:25:11.731 [http-nio-8080-exec-7] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/user/2;执行时间：2毫秒
+2022-04-30 17:28:14.897 [main] INFO  com.example.scc.SpringbootWebApplication [55] : Starting SpringbootWebApplication on PC-20180826RJMN with PID 15776 (E:\IdeaProjects\springboot\springboot_parent\springboot_web\target\classes started by Administrator in E:\IdeaProjects\springboot\springboot_parent)
+2022-04-30 17:28:14.904 [main] INFO  com.example.scc.SpringbootWebApplication [655] : The following profiles are active: dev
+2022-04-30 17:28:15.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-30 17:28:15.776 [main] INFO  org.apache.catalina.core.StandardService [173] : Starting service [Tomcat]
+2022-04-30 17:28:15.776 [main] INFO  org.apache.catalina.core.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-30 17:28:15.851 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] : Initializing Spring embedded WebApplicationContext
+2022-04-30 17:28:16.132 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [69] : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-30 17:28:16.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2022-04-30 17:28:16.334 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [160] : Context refreshed
+2022-04-30 17:28:16.344 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [163] : Found 1 custom documentation plugin(s)
+2022-04-30 17:28:16.364 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [41] : Scanning for api listing references
+2022-04-30 17:28:16.454 [main] INFO  com.example.scc.SpringbootWebApplication [61] : Started SpringbootWebApplication in 1.924 seconds (JVM running for 2.869)
+2022-04-30 17:28:51.673 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 17:28:51.691 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/user/2；开始时间：2022-04-30T17:28:51.691
+2022-04-30 17:28:51.705 [http-nio-8080-exec-1] INFO  com.example.scc.aspect.LogAspect [37] : 用户访问了：用户controller--根据id查询用户的接口
+2022-04-30 17:28:51.735 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/user/2;执行时间：44毫秒
+2022-04-30 17:29:06.824 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/favicon.ico；开始时间：2022-04-30T17:29:06.823
+2022-04-30 17:29:06.825 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/favicon.ico;执行时间：2毫秒
+2022-04-30 17:29:06.833 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [28] : 当前请求：/error；开始时间：2022-04-30T17:29:06.832
+2022-04-30 17:29:06.854 [http-nio-8080-exec-1] INFO  com.example.scc.interceptors.TimeInterceptor [40] : 当前请求:/error;执行时间：21毫秒
