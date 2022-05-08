@@ -10,7 +10,7 @@ public class SpringbootLog4j2Application {
     static Logger logger= LoggerFactory.getLogger(SpringApplication.class);
     public static void main(String[] args) {
         SpringApplication.run(SpringbootLog4j2Application.class, args);
-        logger.error("1");
+        logger.error("12");
         logger.debug("32");
         logger.info("3434");
         logger.trace("444");
